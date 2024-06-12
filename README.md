@@ -30,7 +30,7 @@ This Python script is designed to scrape data from property listings on Lamudi. 
     python Web_Scraper.py
     ```
 
-2. **The script will start scraping data from Lamudi listings and save it to a CSV file named `properties.csv`.**
+2. **The script will start scraping data from Lamudi listings and save it to a CSV file named `Properties.csv`.**
 
 ## Dependencies
 
