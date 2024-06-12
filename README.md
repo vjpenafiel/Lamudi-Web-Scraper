@@ -27,7 +27,7 @@ This Python script is designed to scrape data from property listings on Lamudi. 
 1. **Run the `scraper.py` script:**
 
     ```bash
-    python scraper.py
+    python Web_Scraper.py
     ```
 
 2. **The script will start scraping data from Lamudi listings and save it to a CSV file named `properties.csv`.**
