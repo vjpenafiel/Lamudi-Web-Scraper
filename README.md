@@ -1,4 +1,4 @@
-# Lamudi Web Scraper
+# Lamudi Web Scraper 🏠
 
 This Python script is designed to scrape data from property listings on Lamudi. It extracts information such as title, price, location, number of bedrooms, and more, and saves it to a CSV file for further analysis.
 
