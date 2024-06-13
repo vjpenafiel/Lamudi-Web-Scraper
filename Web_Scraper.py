@@ -82,7 +82,7 @@ def get_price(listing):
     price_raw = get_text(listing, 'div.ListingCell-KeyInfo-PriceWrapper')
     price_regex = re.compile(r"₱([\d,]+)")
     match = price_regex.search(price_raw)
-    return match.group(1).replace(r'[₱,]', '') if match else None      # get peso value (some have dollar equivalents), remove peso sign and commas
+    return match.group(1).replace('₱', '').replace(',', '') if match else None      # get peso value (some have dollar equivalents), remove peso sign and commas
 
 # ADDRESS - brgy, municipality
 def get_address(listing):
